@@ -10,10 +10,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow-x: hidden;
+  background-color: #111113;
 }
 
 .container {
-  background-color: #111113;
   width: 100vw;
   height: 100vh;
 }
@@ -57,19 +57,20 @@ main {
 main h2 {
   color: #08bf5d;
   font-weight: bold;
-  font-size: 1,5rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 main span {
+  display: block;
   color: white;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 main p {
   font-weight: 400;
-  font-size: 0,875rem;
+  font-size: 0.875rem;
   color: white;
 }
 
@@ -127,9 +128,68 @@ form fieldset button {
   height: 3rem;
   background-color: #8257e5;
   border: none;
+  cursor: pointer;
 }
 
 form fieldset button img {
   color: white;
+}
+
+@media (max-width: 400px) {
+  .content {
+    margin-top: 1.125rem;
+  }
+  aside {
+    display: none;
+  }
+  header {
+    width: 17.3125rem;
+  }
+  main {
+    margin-top: 2rem;
+  }
+  #input-email {
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+  }
+  #button-email {
+    height: 2.5rem;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+  form {
+    margin: 1.5rem 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    margin-top: 2.8rem;
+  }
+  aside {
+    display: none;
+  }
+  header {
+    width: 20rem;
+  }
+  main {
+    margin-top: 3rem;
+  }
+  #input-email {
+    width: 18rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+  }
+  #button-email {
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+  form {
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  #input-email {
+    width: 38rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

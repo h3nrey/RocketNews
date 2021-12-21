@@ -7,10 +7,11 @@
 body {
     display: flex;
     overflow-x:hidden;
+    background-color: hsla(240, 5%, 7%, 1);
 }
 
 .container{
-    background-color: hsla(240, 5%, 7%, 1);
+    
     width: 100vw;
     height: 100vh;
 }

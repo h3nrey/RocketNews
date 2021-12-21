@@ -1,0 +1,75 @@
+@media(max-width: 400px) {
+    .content{
+        margin-top: 1.125rem;
+    }
+    aside{
+        display: none;
+    }
+
+    header{
+        width: 17.3125rem;
+    }
+
+    main{
+        margin-top: 2rem;
+
+        h2{
+
+        }
+    }
+
+    #input-email{
+        width: 14rem;
+        height: 2.5rem;
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
+
+    #button-email{
+        height: 2.5rem;
+        border-radius: 0 0.25rem 0.25rem 0;
+    }
+
+    form{
+        margin: 1.5rem 0;
+    }
+}
+
+@media(max-width: 700px) {
+    .content{
+        margin-top: 2.8rem;
+    }
+    aside{
+        display: none;
+    }
+
+    header{
+        width: 20rem;
+    }
+
+    main{
+        margin-top: 3rem;
+
+        h2{
+
+        }
+    }
+
+    #input-email{
+        width: 18rem;
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
+
+    #button-email{
+        border-radius: 0 0.25rem 0.25rem 0;
+    }
+
+    form{
+        margin: 2rem 0;
+    }
+}
+
+@media(max-width:1200px) {
+    #input-email{
+        width: 38rem;
+    }
+}

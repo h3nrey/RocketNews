@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #111113;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bellow-container {
+  display: fixed;
+  z-index: -1;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  margin-top: 3.125rem;
+  width: 70vw;
+  margin-left: 1.875rem;
+}
+
+header {
+  width: 24.3125rem;
+  height: 5.875rem;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 6rem;
+  font-family: "Spartan", sans-serif;
+}
+
+main h2 {
+  color: #08bf5d;
+  font-weight: bold;
+  font-size: 1,5rem;
+  margin-bottom: 1rem;
+}
+
+main span {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 0,875rem;
+  color: white;
+}
+
+main a {
+  color: #8257e5;
+  text-decoration: none;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main a img {
+  margin-left: 0.25rem;
+}
+
+form {
+  margin: 3.125rem 0;
+  z-index: 2;
+}
+
+form fieldset {
+  border: none;
+}
+
+form fieldset label {
+  display: block;
+  font-family: "Spartan", sans-serif;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+form fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form fieldset input {
+  height: 3rem;
+  width: 49rem;
+  border: 0;
+  border-left: 0.5rem solid #08bf5d;
+  padding-left: 1rem;
+}
+
+form fieldset button {
+  width: 3rem;
+  height: 3rem;
+  background-color: #8257e5;
+  border: none;
+}
+
+form fieldset button img {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

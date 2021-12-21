@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    overflow-x:hidden;
+}
+
+.container{
+    background-color: hsla(240, 5%, 7%, 1);
+    width: 100vw;
+    height: 100vh;
+}
+
+.bellow-container{
+    display: fixed;
+    z-index: -1;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    margin-top: 3.125rem;
+    width: 70vw;
+    margin-left: 1.875rem;
+}

@@ -1,0 +1,13 @@
+$white:hsla(0, 0%, 100%, 1);
+$gray: hsla(0, 0%, 100%, 1);
+$green : hsla(148, 92%, 39%, 1);
+$purple: hsla(258, 73%, 62%, 1);
+$sparta: 'Spartan', sans-serif;
+$worksans: 'Work Sans', sans-serif;
+
+
+@import 'global';
+@import 'header';
+@import 'main';
+@import 'form';
+@import 'aside';

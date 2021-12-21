@@ -1,0 +1,39 @@
+form{
+    margin: 3.125rem 0;
+    z-index: 2;
+
+    fieldset{
+        border: none;
+
+        label{
+            display: block;
+            font-family: $sparta;
+            color: $gray;
+            margin-bottom: 1rem;
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            // box-shadow: 4px 10px 15px 0px hsla(0, 0%, 0%, 0.5);
+
+        }
+        input{
+            height: 3rem;
+            width: 49rem;
+            border: 0;
+            border-left: 0.5rem solid $green;
+            padding-left: 1rem;
+        }
+
+        button{
+            width: 3rem;
+            height: 3rem;
+            background-color: $purple;
+            border: none;
+            img{
+                color: $white;
+            }
+        }
+    }
+}
